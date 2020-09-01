@@ -1,0 +1,69 @@
+/* estilos para las clases */
+.text-platzi{
+	color:#97c93e !important;
+}
+
+.btn-platzi {
+  background-color: #97c93e;
+  color: white;
+}
+
+.btn-platzi:hover {
+  background-color: #82ad36;
+  color: white;
+}
+
+
+#header img{
+	width:80px;
+}
+
+#main .carousel-inner img{
+	
+	max-height:70vh;
+	object-fit: cover; /* mantener la proporcion orginal de la imagen */
+	filter: grayscale(70%);
+}
+
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  z-index: 1;
+  position: absolute; /* para que el overlay se expanda por todo el carrusel */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+
+/* para el container y row del overlay */
+#carousel .overlay .container, 
+#carousel .overlay .row {
+	height:100%; /* para que el container y row del ocupen todo el tamaño del overlay se centre verticalmente */
+}
+
+/* para decir que la foto tendra 100% */
+#place-time img{
+	max-width: 100%
+}
+/* para ponerle color al background de la section place-time */
+#place-time {
+	background-color: #343a40;
+	color: white; /* para la fuente */
+}
+
+#footer {
+	background: -webkit-linear-gradient(0deg,#1c3643,#273b47 25%,#1e5372);
+	
+}
+
+#footer a{
+	color: white;
+}
+
