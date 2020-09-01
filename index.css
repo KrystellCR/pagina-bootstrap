@@ -21,7 +21,7 @@
 #main .carousel-inner img{
 	
 	max-height:70vh;
-	object-fit: cover; /* mantener la proporcion orginal de la imagen */
+	object-fit: cover; 
 	filter: grayscale(70%);
 }
 
@@ -32,7 +32,7 @@
 
 #carousel .overlay {
   z-index: 1;
-  position: absolute; /* para que el overlay se expanda por todo el carrusel */
+  position: absolute; 
   top: 0;
   bottom: 0;
   left: 0;
@@ -42,17 +42,17 @@
 }
 
 
-/* para el container y row del overlay */
+
 #carousel .overlay .container, 
 #carousel .overlay .row {
-	height:100%; /* para que el container y row del ocupen todo el tamaño del overlay se centre verticalmente */
+	height:100%; 
 }
 
-/* para decir que la foto tendra 100% */
+
 #place-time img{
 	max-width: 100%
 }
-/* para ponerle color al background de la section place-time */
+
 #place-time {
 	background-color: #343a40;
 	color: white; /* para la fuente */
